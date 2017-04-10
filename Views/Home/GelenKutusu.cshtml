@@ -1,0 +1,53 @@
+﻿@model IEnumerable<_SiparisTakipSistemi.Models.Mesaj>
+
+@{
+    ViewBag.Title = "GelenKutusu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Gelen Kutusu</h2>
+
+<p>
+    @Html.ActionLink("Mesaj Gönder", "MesajGonder")
+</p>
+<table class="table">
+    <tr>
+        <th>
+           
+
+            Mesaj
+
+
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Magaza.SorumluAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uretici.UreticiAdi)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mesaj1)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Magaza.SorumluAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Uretici.UreticiAdi)
+        </td>*@
+        <td>
+
+            @Html.ActionLink("Cevapla", "MesajGonder", new { id = item.MesajId , Mesaj1=item.Mesaj1})
+        </td>
+    </tr>
+}
+
+
+</table>

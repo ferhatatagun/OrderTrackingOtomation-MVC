@@ -1,0 +1,101 @@
+﻿@model IEnumerable<_SiparisTakipSistemi.Models.Urunler>
+@{
+    ViewBag.Title = "TumUrunler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<h2>Tüm Ürünler</h2>
+
+<div class="form-horizontal">
+    <p>
+        <a class="btn btn-primary btn-sm rounded-s" href="~/Home/UrunGir">Ürün Ekle</a>
+      
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UrunAdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kasa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Oturum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sırt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kırlent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Biye)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Berjer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cila)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Not)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kategoriler.KategoriAdi)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UrunAdi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Model)
+                </td>
+                @*<td>
+        @Html.DisplayFor(modelItem => item.Kategoriler.KategoriAdi)
+    </td>*@
+    <td>
+                    @Html.DisplayFor(modelItem => item.Kasa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Oturum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sırt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kırlent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Biye)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Berjer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cila)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Not)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Düzenle", "UrunDuzenle", new { siparisId = item.UrunId}, null)
+                    @Html.ActionLink("Detay", "UrunBilgisi", "Home", new { id = item.UrunId }, null)
+               
+                    @Html.ActionLink("Sil", "DeleteUrunler", new { id = item.UrunId },null)
+                </td>
+            </tr>
+        }
+        
+    </table>
+    </div>

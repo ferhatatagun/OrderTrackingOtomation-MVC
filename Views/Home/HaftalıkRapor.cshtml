@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "HaftalıkRapor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div class="title-block">
+        <h3 class="title">
+            <br />
+            <br />
+            Satış Raporlama
+        </h3>
+        <p class="title-description">  Toplam Satış Listelenmesi</p>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="card-title-block">
+                            <h3 class="title">
+                                Haftalık Toplam Satış
+                            </h3>
+                        </div>
+                        <section class="example">
+                            <div id="morris-donut-chart">
+                                <svg height="360" version="1.1" width="460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative; left: -0.5px;">
+                                    <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> @@VERSION</desc>
+                                    <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+                                    <path fill="none" stroke="#ffb8b8" d="M230,298.3333333333333A115.33333333333333,115.33333333333333,0,0,0,338.8620710910657,221.08972637787707" stroke-width="2" opacity="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;"></path>
+                                    <path fill="#ffb8b8" stroke="#ffffff" d="M230,301.3333333333333A118.33333333333333,118.33333333333333,0,0,0,341.6937434604864,222.08049960735943L388.5736526875638,238.48330085101168A168,168,0,0,1,230,351Z" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <path fill="none" stroke="#ff5252" d="M338.8620710910657,221.08972637787707A115.33333333333333,115.33333333333333,0,0,0,126.5351849221146,132.04109676732875" stroke-width="2" opacity="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;"></path>
+                                    <path fill="#ff5252" stroke="#ffffff" d="M341.6937434604864,222.08049960735943A118.33333333333333,118.33333333333333,0,0,0,123.84390360505978,130.71557616301072L79.28824624492992,108.77084615818984A168,168,0,0,1,388.5736526875638,238.48330085101168Z" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <path fill="none" stroke="#ff8585" d="M126.5351849221146,132.04109676732875A115.33333333333333,115.33333333333333,0,0,0,229.96376696532462,298.3333276418615" stroke-width="2" opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 1;"></path>
+                                    <path fill="#ff8585" stroke="#ffffff" d="M123.84390360505978,130.71557616301072A118.33333333333333,118.33333333333333,0,0,0,229.96282448754405,301.3333274938175L229.94565044798694,355.9999914627923A173,173,0,0,1,74.8027773831719,106.56164515099312Z" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <text x="230" y="173" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="15px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 15px; font-weight: 800;" font-weight="800" transform="matrix(1.5337,0,0,1.5337,-122.7457,-98.1999)" stroke-width="0.6520201107899808">
+                                        <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="6"> Toplam Sipariş Sayısı</tspan>
+                                    </text>
+                                    <text x="230" y="193" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 14px;" transform="matrix(2.4028,0,0,2.4028,-322.6389,-259.5139)" stroke-width="0.4161849710982659">
+                                        <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 2</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+

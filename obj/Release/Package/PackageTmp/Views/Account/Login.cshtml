@@ -1,0 +1,99 @@
+﻿@using _SiparisTakipSistemi.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Giriş Yap | Sipariş Takip Sistemi";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Giriş Yap | Sipariş Takip Sistemi </title>
+
+
+
+    <link href="~/Content/css/app-blue.css" rel="stylesheet" />
+    <link href="~/Content/css/app-custom.css" rel="stylesheet" />
+    <link href="~/Content/css/app-green.css" rel="stylesheet" />
+    <link href="~/Content/css/app-orange.css" rel="stylesheet" />
+    <link href="~/Content/css/app-purple.css" rel="stylesheet" />
+    <link href="~/Content/css/app-red.css" rel="stylesheet" />
+    <link href="~/Content/css/app-seagreen.css" rel="stylesheet" />
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+    <link href="~/Content/css/vendor.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+</head>
+<body>
+    <div class="auth">
+        <div class="auth-container">
+            <div class="card">
+                <header class="auth-header">
+                    <h1 class="auth-title">
+                        <div class="logo">
+                            <span class="l l1"></span>
+                            <span class="l l2"></span>
+                            <span class="l l3"></span>
+                            <span class="l l4"></span>
+                            <span class="l l5"></span>
+                        </div> Sipariş Takip Sistemi
+                    </h1>
+                </header>
+                <div class="auth-content">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                        @Html.AntiForgeryToken()
+                        <p class="text-xs-center">Giriş Yap</p>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-xs-center" })
+                        <form id="login-form" action="/index.html" method="GET" novalidate="novalidate">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Email, new { @class = "firstname" })
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control underlined", name = "email", id = "email", placeholder = "Your email address", required = "true" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "has-error" })
+                            </div>
+                            <div class="form-group">
+                                @*<div class="form-group"> <label for="password">Password</label>
+                                    <input type="password" class="form-control underlined" name="password" id="password" placeholder="Your password" required="" aria-required="true"> </div>*@
+
+                                @Html.LabelFor(m => m.Password, new { @class = "password" })
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control underlined", name = "password", id = "password", placeholder = "Your password" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "has-error" })
+
+                            </div>
+                            <div class="form-group">
+                                @Html.CheckBoxFor(m => m.RememberMe, new { @type = "checkbox", id = "remember" })
+                                @Html.LabelFor(m => m.RememberMe)<br />
+                                @Html.ActionLink("Şifreyi mi Unuttun?", "ForgotPassword", new { @class = "forgot-btn pull-right" })
+                            </div>
+                            <div class="form-group"> <button type="submit" value="Log in" class="btn btn-block btn-primary">Giriş</button> </div>
+                            <div class="form-group">
+                                @Html.ActionLink("Kayıt Ol", "Register")
+
+                            </div>
+
+                        </form>
+
+                        <div class="text-xs-center">
+
+                            <i class="fa fa-arrow-left">
+                                @Html.ActionLink("Geri Dön", "Index", "Home")
+
+                            </i>
+
+
+
+
+
+                        </div>
+
+                    }
+                    @section Scripts {
+                        @Scripts.Render("~/bundles/jqueryval")
+                        @Scripts.Render("~/Content/js/vendor.js")
+                        @Scripts.Render("~/Content/js/app.js")
+                        @Scripts.Render("~/Content/js/npm.js")
+                    }
+</body>
+</html>

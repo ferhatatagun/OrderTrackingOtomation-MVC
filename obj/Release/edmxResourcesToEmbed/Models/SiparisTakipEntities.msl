@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mobsistModelStoreContainer" CdmEntityContainer="SiparisTakipEntities">
+    <EntitySetMapping Name="Aboneliklers">
+      <EntityTypeMapping TypeName="mobsistModel.Abonelikler">
+        <MappingFragment StoreEntitySet="Abonelikler">
+          <ScalarProperty Name="AboneId" ColumnName="AboneId" />
+          <ScalarProperty Name="MagazaId" ColumnName="MagazaId" />
+          <ScalarProperty Name="UreticiId" ColumnName="UreticiId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kategorilers">
+      <EntityTypeMapping TypeName="mobsistModel.Kategoriler">
+        <MappingFragment StoreEntitySet="Kategoriler">
+          <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+          <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Magazas">
+      <EntityTypeMapping TypeName="mobsistModel.Magaza">
+        <MappingFragment StoreEntitySet="Magaza">
+          <ScalarProperty Name="MagazaId" ColumnName="MagazaId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="SorumluAdi" ColumnName="SorumluAdi" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="MagazaAdi" ColumnName="MagazaAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mesajs">
+      <EntityTypeMapping TypeName="mobsistModel.Mesaj">
+        <MappingFragment StoreEntitySet="Mesaj">
+          <ScalarProperty Name="MesajId" ColumnName="MesajId" />
+          <ScalarProperty Name="MagazaId" ColumnName="MagazaId" />
+          <ScalarProperty Name="UreticiId" ColumnName="UreticiId" />
+          <ScalarProperty Name="Mesaj1" ColumnName="Mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Siparis">
+      <EntityTypeMapping TypeName="mobsistModel.Sipari">
+        <MappingFragment StoreEntitySet="Siparis">
+          <ScalarProperty Name="SiparisId" ColumnName="SiparisId" />
+          <ScalarProperty Name="MagazaId" ColumnName="MagazaId" />
+          <ScalarProperty Name="UreticiId" ColumnName="UreticiId" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="SiparisDurumu" ColumnName="SiparisDurumu" />
+          <ScalarProperty Name="SiparisTarihi" ColumnName="SiparisTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ureticis">
+      <EntityTypeMapping TypeName="mobsistModel.Uretici">
+        <MappingFragment StoreEntitySet="Uretici">
+          <ScalarProperty Name="UreticiId" ColumnName="UreticiId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UreticiAdi" ColumnName="UreticiAdi" />
+          <ScalarProperty Name="SorumluAdi" ColumnName="SorumluAdi" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Limit" ColumnName="Limit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urunlers">
+      <EntityTypeMapping TypeName="mobsistModel.Urunler">
+        <MappingFragment StoreEntitySet="Urunler">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Kasa" ColumnName="Kasa" />
+          <ScalarProperty Name="Oturum" ColumnName="Oturum" />
+          <ScalarProperty Name="Sırt" ColumnName="Sırt" />
+          <ScalarProperty Name="Kırlent" ColumnName="Kırlent" />
+          <ScalarProperty Name="Biye" ColumnName="Biye" />
+          <ScalarProperty Name="Berjer" ColumnName="Berjer" />
+          <ScalarProperty Name="Cila" ColumnName="Cila" />
+          <ScalarProperty Name="Not" ColumnName="Not" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_SiparisDurumları" FunctionName="mobsistModel.Store.SP_SiparisDurumları">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="mobsistModel.SP_SiparisDurumları_Result">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="SiparisDurumu" ColumnName="SiparisDurumu" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_SiparisDurumlarıJoin" FunctionName="mobsistModel.Store.SP_SiparisDurumlarıJoin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="mobsistModel.SP_SiparisDurumlarıJoin_Result">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="SiparisDurumu" ColumnName="SiparisDurumu" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_UrunlerJoin" FunctionName="mobsistModel.Store.SP_UrunlerJoin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="mobsistModel.SP_UrunlerJoin_Result">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Kasa" ColumnName="Kasa" />
+          <ScalarProperty Name="Oturum" ColumnName="Oturum" />
+          <ScalarProperty Name="Sırt" ColumnName="Sırt" />
+          <ScalarProperty Name="Kırlent" ColumnName="Kırlent" />
+          <ScalarProperty Name="Biye" ColumnName="Biye" />
+          <ScalarProperty Name="Berjer" ColumnName="Berjer" />
+          <ScalarProperty Name="Cila" ColumnName="Cila" />
+          <ScalarProperty Name="Not" ColumnName="Not" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

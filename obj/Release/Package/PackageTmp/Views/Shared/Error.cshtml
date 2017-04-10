@@ -1,0 +1,31 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+
+
+
+    <section class="section">
+        <div class="error-card">
+            <div class="error-title-block">
+                <h1 class="error-title">404</h1>
+                <h2 class="error-sub-title">
+                  Sorry , Üzgünüz 
+                </h2>
+            </div>
+            <div class="error-container visible">
+                <p> Bu sayfa size malesef yanıt veremedi yada hatalı bi giriş yaptınız Lütfen Servis Sağlayıcısı ile görüşün.<br /> Şikayetinizi Bizimle Paylaşın</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="input-group">
+                            <input type="text" class="form-control"> <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">Gönder</button>
+                            </span>
+                        </div>
+                    </div>
+                </div> <br> <a class="btn btn-primary" href="~/Home/Index"><i class="fa fa-angle-left"></i> Geri Dön</a>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,191 @@
+﻿@model  _SiparisTakipSistemi.Models.ViewModels.UrunDetay
+@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.DetailsofUrunler.UrunAdi</h2>
+
+<article class="content items-list-page">
+    <div class="title-search-block">
+        <div class="title-block">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="title">
+                        Ürün Detay Bilgileri
+                        <a href="~/Home/UrunGir" class="btn btn-primary btn-sm rounded-s">
+                            Yeni Ürün Ekle
+                        </a>
+                        <div class="action dropdown">
+                            <button class="btn  btn-sm rounded-s btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Daha Fazla ...
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <a class="dropdown-item" href="#"><i class="fa fa-pencil-square-o icon"></i>Düzenle</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#confirm-modal"><i class="fa fa-close icon"></i>Sil</a>
+                            </div>
+                        </div>
+                    </h3>
+                    <p class="title-description"> @Model.DetailsofUrunler.UrunAdi Hakkında Herşey </p>
+                </div>
+            </div>
+        </div>
+        <div class="items-search">
+            <form class="form-inline">
+                <div class="input-group">
+                    <input type="text" class="form-control boxed rounded-s" placeholder="Arama Yapın..."> <span class="input-group-btn">
+                        <button class="btn btn-secondary rounded-s" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="card items">
+        <ul class="item-list striped">
+            <li class="item item-list-header hidden-sm-down">
+                <div class="item-row">
+                    <div class="item-col fixed item-col-check">
+                        <label class="item-check" id="select-all-items">
+                           
+                            <span> <input type="checkbox" class="checkbox"> </span>
+                        </label>
+                    </div>
+                    <div class="item-col item-col-header fixed item-col-img md">
+                        <div>
+                            <span>İmage</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-title">
+                        <div>
+                            <span>Ürün Adı</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Kategori</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Model</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Kasa</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Oturum</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Sırt</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Kırlent</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Biye</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Berjer</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-sales">
+                        <div>
+                            <span>Cila</span>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-header item-col-date">
+                        <div>
+                            <span>Not</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+            <li class="item">
+                <div class="item-row">
+                    <div class="item-col fixed item-col-check">
+                        <label class="item-check" id="select-all-items">
+                            
+                            <span> <input type="checkbox" class="checkbox"> </span>
+                        </label>
+                    </div>
+                    <div class="item-col fixed item-col-img md">
+                        <a href="#">
+                            <div class="item-img rounded" style="background-image: url(https://cdn1.iconfinder.com/data/icons/amenities/500/sofa-512.png)"></div>
+                        </a>
+                    </div>
+
+                    <div class="item-col fixed pull-left item-col-title">
+                        <div class="item-heading">Ürün Adı</div>
+                        <div>
+                            <a href="#" class="">
+                                <h4 class="item-title">
+                                    @Model.DetailsofUrunler.UrunAdi
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Kategoriii</div>*@
+                        <div>@Model.DetailsofUrunler.KategoriAdi</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Model</div>*@
+                        <div>@Model.DetailsofUrunler.Model</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Kasa</div>*@
+                        <div>@Model.DetailsofUrunler.Kasa</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Oturum</div>*@
+                        <div>@Model.DetailsofUrunler.Oturum</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Sırt</div>*@
+                        <div>@Model.DetailsofUrunler.Sırt</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Kırlent</div>*@
+                        <div>@Model.DetailsofUrunler.Kırlent</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Biye</div>*@
+                        <div>@Model.DetailsofUrunler.Biye</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                        @*<div class="item-heading">Berjer</div>*@
+                        <div>@Model.DetailsofUrunler.Berjer</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                       @* <div class="item-heading">Cila</div>*@
+                        <div>@Model.DetailsofUrunler.Cila</div>
+                    </div>
+                    <div class="item-col item-col-sales">
+                     @*   <div class="item-heading">Not</div>*@
+                        <div>@Model.DetailsofUrunler.Not</div>
+                    </div>
+                    <!-- Ayarlar Butonu-->
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</article>

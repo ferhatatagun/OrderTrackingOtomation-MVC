@@ -1,0 +1,84 @@
+﻿@model _SiparisTakipSistemi.Models.RegisterViewModel
+@{
+   
+    Layout = null;
+}
+
+
+<link href="~/Content/css/app-blue.css" rel="stylesheet" />
+<link href="~/Content/css/app-custom.css" rel="stylesheet" />
+<link href="~/Content/css/app-green.css" rel="stylesheet" />
+<link href="~/Content/css/app-orange.css" rel="stylesheet" />
+<link href="~/Content/css/app-purple.css" rel="stylesheet" />
+<link href="~/Content/css/app-red.css" rel="stylesheet" />
+<link href="~/Content/css/app-seagreen.css" rel="stylesheet" />
+<link href="~/Content/css/app.css" rel="stylesheet" />
+<link href="~/Content/css/vendor.css" rel="stylesheet" />
+
+
+<div class="auth">
+    <div class="auth-container">
+        <div class="card">
+            <header class="auth-header">
+                <h1 class="auth-title">
+                    <div class="logo">
+                        <span class="l l1"></span>
+                        <span class="l l2"></span>
+                        <span class="l l3"></span>
+                        <span class="l l4"></span>
+                        <span class="l l5"></span>
+                    </div>        Kayıt Ol
+                </h1>
+            </header>
+            <div class="auth-content">
+                @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                    @Html.AntiForgeryToken()
+                    <h4>KAYIT OL</h4>
+                    <hr />
+                    <form id="signup-form" action="/index.html" method="GET" novalidate="">
+                        @Html.ValidationSummary("", new { @class = "text-xs-center" })
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Email, new { @class = "firstname" })
+                            <div class="row">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control underlined", name = "email", id = "email", placeholder = "E-Mail", required = "true" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "has-error" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Password, new { @class = "password" })
+                            <div class="row">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control underlined", name = "password", id = "password", placeholder = "Şifre" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "has-error" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "password" })
+                            <div class="row">
+                                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control underlined", name = "ConfirmPassword", id = "ConfirmPassword", placeholder = "Şifre Tekrar" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "has-error" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="form-group  ">
+                                <input type="submit" class="btn btn-block btn-primary" value="Kayıt Ol" />
+                            </div>
+                        </div>
+                    </form>
+                }
+            </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/Content/js/vendor.js")
+        @Scripts.Render("~/Content/js/app.js")
+        @Scripts.Render("~/Content/js/npm.js")
+    }
+

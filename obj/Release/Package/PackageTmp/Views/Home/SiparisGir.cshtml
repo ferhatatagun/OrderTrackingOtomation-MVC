@@ -1,0 +1,157 @@
+﻿@model _SiparisTakipSistemi.Models.Sipari
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "SiparisGir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Sipariş Gir </h2> <h5>@User.Identity.GetUserName()</h5>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+       
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.MagazaId, "Magaza Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MagazaId", ViewBag.magaza as SelectList, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MagazaId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UreticiId, "Üretici Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("UreticiAdi", ViewBag.uretici as SelectList, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.UreticiId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UrunId, "Ürün Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.UrunId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Adet, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Adet, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Adet, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*<div>
+            <!-- KASA -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Kasa, "Kasa", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("Urunler.Kasa", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Kasa, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Oturum -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Oturum, "Oturum", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("Urunler.Oturum", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Oturum, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Sırt -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Sırt, "Sırt", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Sırt, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Kırlent -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Kırlent, "Kırlent", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Kırlent, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Biye -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Biye, "Biye", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Biye, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Berjer -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Berjer, "Berjer", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Berjer, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Cila -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Cila, "Cila", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Cila, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <!-- Not -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Urunler.Not, "Not", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("UrunId", ViewBag.urunler as SelectList, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Urunler.Not, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            #End Region
+        </div>*@
+
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SiparisDurumu, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SiparisDurumu, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SiparisDurumu, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SiparisTarihi, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SiparisTarihi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SiparisTarihi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <br />
+                <input type="submit" value="Siparişi Gir" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Geri Dön ", "Index")
+</div>

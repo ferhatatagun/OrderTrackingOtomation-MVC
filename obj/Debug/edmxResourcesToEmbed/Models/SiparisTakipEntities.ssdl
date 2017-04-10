@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mobsistModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Abonelikler">
+    <Key>
+      <PropertyRef Name="AboneId" />
+    </Key>
+    <Property Name="AboneId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MagazaId" Type="int" />
+    <Property Name="UreticiId" Type="int" />
+  </EntityType>
+  <EntityType Name="Kategoriler">
+    <Key>
+      <PropertyRef Name="KategoriId" />
+    </Key>
+    <Property Name="KategoriId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoriAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Magaza">
+    <Key>
+      <PropertyRef Name="MagazaId" />
+    </Key>
+    <Property Name="MagazaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="SorumluAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="MagazaAdi" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Mesaj">
+    <Key>
+      <PropertyRef Name="MesajId" />
+    </Key>
+    <Property Name="MesajId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MagazaId" Type="int" />
+    <Property Name="UreticiId" Type="int" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Siparis">
+    <Key>
+      <PropertyRef Name="SiparisId" />
+    </Key>
+    <Property Name="SiparisId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MagazaId" Type="int" />
+    <Property Name="UreticiId" Type="int" />
+    <Property Name="UrunId" Type="int" />
+    <Property Name="Adet" Type="nvarchar" MaxLength="50" />
+    <Property Name="SiparisDurumu" Type="nvarchar" MaxLength="50" />
+    <Property Name="SiparisTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Uretici">
+    <Key>
+      <PropertyRef Name="UreticiId" />
+    </Key>
+    <Property Name="UreticiId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="UreticiAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SorumluAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Limit" Type="int" />
+  </EntityType>
+  <EntityType Name="Urunler">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UrunAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriId" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kasa" Type="nvarchar" MaxLength="50" />
+    <Property Name="Oturum" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sırt" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kırlent" Type="nvarchar" MaxLength="50" />
+    <Property Name="Biye" Type="nvarchar" MaxLength="50" />
+    <Property Name="Berjer" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cila" Type="nvarchar" MaxLength="50" />
+    <Property Name="Not" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Abonelikler_MagazaId">
+    <End Role="Magaza" Type="Self.Magaza" Multiplicity="0..1" />
+    <End Role="Abonelikler" Type="Self.Abonelikler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Magaza">
+        <PropertyRef Name="MagazaId" />
+      </Principal>
+      <Dependent Role="Abonelikler">
+        <PropertyRef Name="MagazaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Abonelikler_UreticiId">
+    <End Role="Uretici" Type="Self.Uretici" Multiplicity="0..1" />
+    <End Role="Abonelikler" Type="Self.Abonelikler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uretici">
+        <PropertyRef Name="UreticiId" />
+      </Principal>
+      <Dependent Role="Abonelikler">
+        <PropertyRef Name="UreticiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mesaj_MagazaId">
+    <End Role="Magaza" Type="Self.Magaza" Multiplicity="0..1" />
+    <End Role="Mesaj" Type="Self.Mesaj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Magaza">
+        <PropertyRef Name="MagazaId" />
+      </Principal>
+      <Dependent Role="Mesaj">
+        <PropertyRef Name="MagazaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mesaj_UreticiId">
+    <End Role="Uretici" Type="Self.Uretici" Multiplicity="0..1" />
+    <End Role="Mesaj" Type="Self.Mesaj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uretici">
+        <PropertyRef Name="UreticiId" />
+      </Principal>
+      <Dependent Role="Mesaj">
+        <PropertyRef Name="UreticiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparis_MagazaId">
+    <End Role="Magaza" Type="Self.Magaza" Multiplicity="0..1" />
+    <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Magaza">
+        <PropertyRef Name="MagazaId" />
+      </Principal>
+      <Dependent Role="Siparis">
+        <PropertyRef Name="MagazaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparis_UreticiId">
+    <End Role="Uretici" Type="Self.Uretici" Multiplicity="0..1" />
+    <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uretici">
+        <PropertyRef Name="UreticiId" />
+      </Principal>
+      <Dependent Role="Siparis">
+        <PropertyRef Name="UreticiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparis_UrunId">
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+    <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urunler">
+        <PropertyRef Name="UrunId" />
+      </Principal>
+      <Dependent Role="Siparis">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunlerKategori">
+    <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategoriler">
+        <PropertyRef Name="KategoriId" />
+      </Principal>
+      <Dependent Role="Urunler">
+        <PropertyRef Name="KategoriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="SP_SiparisDurumları" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_SiparisDurumlarıJoin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_UrunlerJoin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="mobsistModelStoreContainer">
+    <EntitySet Name="Abonelikler" EntityType="Self.Abonelikler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategoriler" EntityType="Self.Kategoriler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Magaza" EntityType="Self.Magaza" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Mesaj" EntityType="Self.Mesaj" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Siparis" EntityType="Self.Siparis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Uretici" EntityType="Self.Uretici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Urunler" EntityType="Self.Urunler" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Abonelikler_MagazaId" Association="Self.FK_Abonelikler_MagazaId">
+      <End Role="Magaza" EntitySet="Magaza" />
+      <End Role="Abonelikler" EntitySet="Abonelikler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Abonelikler_UreticiId" Association="Self.FK_Abonelikler_UreticiId">
+      <End Role="Uretici" EntitySet="Uretici" />
+      <End Role="Abonelikler" EntitySet="Abonelikler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mesaj_MagazaId" Association="Self.FK_Mesaj_MagazaId">
+      <End Role="Magaza" EntitySet="Magaza" />
+      <End Role="Mesaj" EntitySet="Mesaj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mesaj_UreticiId" Association="Self.FK_Mesaj_UreticiId">
+      <End Role="Uretici" EntitySet="Uretici" />
+      <End Role="Mesaj" EntitySet="Mesaj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparis_MagazaId" Association="Self.FK_Siparis_MagazaId">
+      <End Role="Magaza" EntitySet="Magaza" />
+      <End Role="Siparis" EntitySet="Siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparis_UreticiId" Association="Self.FK_Siparis_UreticiId">
+      <End Role="Uretici" EntitySet="Uretici" />
+      <End Role="Siparis" EntitySet="Siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparis_UrunId" Association="Self.FK_Siparis_UrunId">
+      <End Role="Urunler" EntitySet="Urunler" />
+      <End Role="Siparis" EntitySet="Siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunlerKategori" Association="Self.FK_UrunlerKategori">
+      <End Role="Kategoriler" EntitySet="Kategoriler" />
+      <End Role="Urunler" EntitySet="Urunler" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

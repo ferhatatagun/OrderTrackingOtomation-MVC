@@ -1,0 +1,326 @@
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\ApplicationInsights.config
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\csc.exe
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\vbc.exe
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll.config
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.pdb
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Owin.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\WebGrease.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.pdb
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.csprojResolveAssemblyReference.cache
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.dll
+C:\Users\ferhat\Desktop\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.pdb
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\ApplicationInsights.config
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\csc.exe
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\vbc.exe
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll.config
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.pdb
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Owin.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\WebGrease.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.pdb
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\Project_Siparis_Takip\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.pdb
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.pdb
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\ApplicationInsights.config
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\csc.exe
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\vbc.exe
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll.config
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.pdb
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Owin.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\WebGrease.dll
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.pdb
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Talha\Desktop\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\ApplicationInsights.config
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\csc.exe
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\vbc.exe
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll.config
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\_SiparisTakipSistemi.pdb
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Owin.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\WebGrease.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.Web.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Helpers.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Mvc.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Optimization.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.Razor.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Antlr3.Runtime.pdb
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Newtonsoft.Json.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.csprojResolveAssemblyReference.cache
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.dll
+C:\Users\ferhat\Desktop\Education\MVC FİNAL\_SiparisTakipSistemi\_SiparisTakipSistemi\_SiparisTakipSistemi\obj\Debug\_SiparisTakipSistemi.pdb
